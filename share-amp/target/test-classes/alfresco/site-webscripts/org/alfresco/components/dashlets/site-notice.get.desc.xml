@@ -1,0 +1,6 @@
+<webscript>
+   <shortname>Department Notice</shortname>
+   <description>Add a custom notice for display to Department users</description>
+   <family>site-dashlet</family>
+   <url>/components/dashlets/site-notice</url>
+</webscript>

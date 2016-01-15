@@ -1,0 +1,6 @@
+<webscript>
+   <shortname>Department Profile</shortname>
+   <description>Department profile component used in the collaboration Department</description>
+   <family>site-dashlet</family>
+   <url>/components/dashlets/site-profile</url>
+</webscript>

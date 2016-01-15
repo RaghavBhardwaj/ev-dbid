@@ -1,0 +1,18 @@
+<webscript>
+   <!--
+
+*********** Changes made by Raghav Bhardwaj on 05-10-15 **************
+
+   <shortname>My Calendar</shortname>
+   <description></description>
+   <family>dashlets</family>
+   <url>/components/dashlets/user-calender</url>
+
+-->
+
+
+  <shortname></shortname>
+   <description></description>
+   <family></family>
+   <url></url>
+</webscript>

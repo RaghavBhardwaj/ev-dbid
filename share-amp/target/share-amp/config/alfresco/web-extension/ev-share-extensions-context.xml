@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE beans PUBLIC '-//SPRING//DTD BEAN//EN' 'http://www.springframework.org/dtd/spring-beans.dtd'>
+<beans>
+
+	<!-- Add EisenVault messages -->
+	<bean id="share-amp.custom.resources" class="org.springframework.extensions.surf.util.ResourceBundleBootstrapComponent">
+		<property name="resourceBundles">
+			<list>
+				<value>alfresco/web-extension/messages/evShareExt</value>
+			</list>
+		</property>
+	</bean>
+	 	<!-- Custom evaluator added by Raghav Bhardwaj 26/10/2015 -->
+	 
+   <bean id="evaluator.doclib.action.oEditMimetype" parent="evaluator.doclib.action.isMimetype">
+      <property name="mimetypes">
+       <list>
+
+            <value>application/pdf</value>
+
+            <value>image/png</value>
+
+            <value>image/jpeg</value>
+
+            <value>image/tiff</value>
+ 
+
+         </list>
+      </property>
+   </bean>
+	
+ 
+</beans>
+    
